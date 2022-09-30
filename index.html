@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="container">
-        <hr>
+        <hr id="linha_topo">
         <p id="conta_corrente">Conta Corrente</p>
         <div id="tres_barras">
             <canvas id="top_barras"></canvas>
@@ -32,16 +32,96 @@
         </div>
         <p id="transacoes_recentes">transações recentes</p>
         <div id="caixa_historico">
-            <div id="icone_menos">    
-                <canvas id="menos_borda"></canvas>
-                <canvas id="menos"></canvas>
+            <div id="item_saque">
+                <div id="icone_menos">    
+                    <canvas id="menos_borda"></canvas>
+                    <canvas id="menos"></canvas>
+                </div>
+                <p id="quantia">R$25,50</p>
+                <p id="data">11/12</p>
+                <p id="descricao">Supermercado</p>
+                <p id="hora">13:32</p>
             </div>
-            <p id="quantia">R$25,50</p>
-            <p id="data">11/12</p>
-            <!-- <div id="icone_menos">    
-                <canvas id="menos_borda"></canvas>
-                <canvas id="menos"></canvas>
-            </div> -->
+            
+            <hr id="limite">            
+
+            <div id="item_deposito">
+                <div id="icone_menos">    
+                    <canvas id="menos_borda"></canvas>
+                    <canvas id="menos"></canvas>
+                </div>
+                <p id="quantia">R$344,00</p>
+                <p id="data">09/12</p>
+                <p id="descricao">Shopping</p>
+                <p id="hora">13:32</p>
+            </div>
+
+            <hr id="limite">
+
+            <div id="item_deposito">
+                <div id="icone_mais">    
+                    <canvas id="mais_borda"></canvas>
+                    <canvas id="mais_horizontal"></canvas>
+                    <canvas id="mais_vertical"></canvas>
+                </div>
+                <p id="quantia">R$149,00</p>
+                <p id="data">09/12</p>
+                <p id="descricao">Pix *4442 Ana</p>
+                <p id="hora">13:32</p>
+            </div>
+            
+            <hr id="limite">
+
+            <div id="item_saque">
+                <div id="icone_menos">    
+                    <canvas id="menos_borda"></canvas>
+                    <canvas id="menos"></canvas>
+                </div>
+                <p id="quantia">R$149,00</p>
+                <p id="data">08/12</p>
+                <p id="descricao">Farmácia</p>
+                <p id="hora">13:32</p>
+            </div>
+
+            <hr id="limite">
+
+            <div id="item_saque">
+                <div id="icone_menos">    
+                    <canvas id="menos_borda"></canvas>
+                    <canvas id="menos"></canvas>
+                </div>
+                <p id="quantia">R$23,43</p>
+                <p id="data">08/12</p>
+                <p id="descricao">Supermercado</p>
+                <p id="hora">13:32</p>
+            </div>
+
+            <hr id="limite">
+
+            <div id="item_deposito">
+                <div id="icone_mais">    
+                    <canvas id="mais_borda"></canvas>
+                    <canvas id="mais_horizontal"></canvas>
+                    <canvas id="mais_vertical"></canvas>
+                </div>
+                <p id="quantia">R$2999,00</p>
+                <p id="data">05/12</p>
+                <p id="descricao">Transferência *0223</p>
+                <p id="hora">13:32</p>
+            </div>
+            
+            <hr id="limite">
+
+            <div id="item_saque">
+                <div id="icone_menos">    
+                    <canvas id="menos_borda"></canvas>
+                    <canvas id="menos"></canvas>
+                </div>
+                <p id="quantia">R$23,43</p>
+                <p id="data">02/12</p>
+                <p id="descricao">Supermercado</p>
+                <p id="hora">13:32</p>
+            </div>
         </div>
     </div>
 </body>

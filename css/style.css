@@ -7,7 +7,7 @@
     background-color: #F6F7F9;  /*F6F7F9*/
 }
 
-hr {
+#linha_topo {
     background-color: #2393F7;
     height: 4px; 
     border: none;
@@ -176,7 +176,8 @@ hr {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.8px;
-    text-transform:uppercase;
+    text-transform:
+    uppercase;
     margin-left: 40px;
     margin-top: 18px;
     font-weight: 700;
@@ -187,12 +188,20 @@ hr {
     width: 320px;
     height: 380px;
     margin: 0 auto;
-    margin-top: -6px;
+    margin-top: -4px;
     padding: 20px;
     background-color: white;
     border-radius: 5px;
     box-shadow:#aaa 0px 0px 1px;
 }
+
+/* 
+
+#item_saque {
+
+}
+
+*/
 
 #icone_menos {
     display: inline-block;
@@ -219,10 +228,12 @@ hr {
 }
 
 #quantia {
-    display: inline;
+    display: inline-block;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;  
+    width: 50%;
+    margin: 0 auto;
 }
 
 #data {
@@ -230,5 +241,70 @@ hr {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     color: #67737F;
-    margin-left: 202px;
+    margin-left: 100px;
 }
+
+#descricao {
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #67737F;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#hora {
+    display: inline;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #67737F;
+    margin-left: 126px;
+}
+
+#limite {
+    height: 2px;
+    background: #F6F7F9;
+    border: none;
+}
+
+/*
+
+#item_deposito {
+
+}
+
+*/
+
+#icone_mais {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-top: 5px;
+}
+
+#mais_borda {
+    display: flex;
+    width: 9px;
+    height: 9px;
+    background-color: #C5FF64;
+    border-radius: 2px;
+}
+
+#mais_horizontal {
+    display: flex;
+    width: 5px;
+    height: 1px;
+    background-color: #82BF00;
+    margin-top: -5px;
+    margin-left: 2px;
+}
+
+#mais_vertical {
+    display: flex;
+    width: 1px;
+    height: 5px;
+    background-color: #82BF00;
+    margin-top: -3px;
+    margin-left: 4px;
+}
+
