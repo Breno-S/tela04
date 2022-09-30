@@ -103,7 +103,6 @@ hr {
 #cartao {
     background-color:#2393F7;
     margin-top: 20px;
-    /* margin-bottom: 40px; */
     margin-left: 20px;
     margin-right: 10px;
     padding: 18px;
@@ -113,7 +112,6 @@ hr {
 #boleto {
     background-color:#2393F7;
     margin-top: 20px;
-    /* margin-bottom: 40px; */
     margin-left: 12px;
     margin-right: 12px;
     padding: 18px;
@@ -123,7 +121,6 @@ hr {
 #transferir {
     background-color:#2393F7;
     margin-top: 20px;
-    /* margin-bottom: 40px; */
     margin-left: 12px;
     margin-right: 12px;
     padding: 18px;
@@ -131,10 +128,8 @@ hr {
 }
 
 #gastos {
-    
     background-color:#2393F7;
     margin-top: 20px;
-    /* margin-bottom: 40px; */
     margin-left: 10px;
     margin-right: 20px;
     padding: 18px;
@@ -144,8 +139,8 @@ hr {
 #p_cartao {
     display: inline-block;
     font-family: 'Roboto', sans-serif;
-    margin-top: -40px;
-    margin-left: 25px;
+    margin-top: 0px;
+    margin-left: 26px;
     font-weight: 600;
     opacity: 0.5;
 }
@@ -154,7 +149,7 @@ hr {
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     margin-top: -35px;
-    margin-left: 36px;
+    margin-left: 35px;
     font-weight: 600;
     opacity: 0.5;
 }
@@ -178,18 +173,62 @@ hr {
 }
 
 #transacoes_recentes {
+    font-size: 12px;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.8px;
     text-transform:uppercase;
-    margin-left: 42px;
-    font-weight: 600;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: 700;
     opacity: 0.4;
 }
 
 #caixa_historico {
-    width: 360px;
-    height: 420px;
+    width: 320px;
+    height: 380px;
     margin: 0 auto;
+    margin-top: -6px;
+    padding: 20px;
     background-color: white;
     border-radius: 5px;
     box-shadow:#aaa 0px 0px 1px;
+}
+
+#icone_menos {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-top: 5px;
+}
+
+#menos_borda {
+    display: flex;
+    width: 9px;
+    height: 9px;
+    background-color: #D9D9D9;
+    border-radius: 2px;
+}
+
+#menos {
+    display: flex;
+    width: 5px;
+    height: 1px;
+    background-color: #67747D;
+    margin-top: -5px;
+    margin-left: 2px;
+}
+
+#quantia {
+    display: inline;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;  
+}
+
+#data {
+    display: inline;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #67737F;
+    margin-left: 202px;
 }
