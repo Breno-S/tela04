@@ -7,11 +7,10 @@
     background-color: #F6F7F9;  /*F6F7F9*/
 }
 
-#barra_superior {
-    width: 100%;
-    height: 4px;
+hr {
     background-color: #2393F7;
-    margin-bottom: 11px;
+    height: 4px; 
+    border: none;
 }
 
 #conta_corrente {
@@ -102,76 +101,78 @@
 }
 
 #cartao {
-    width: 20px;
-    height:20px;
     background-color:#2393F7;
-    margin: 20px;
-    margin-bottom: 40px;
-    padding: 20px;
+    margin-top: 20px;
+    /* margin-bottom: 40px; */
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 18px;
     border-radius: 15px;
 }
 
 #boleto {
-    width: 20px;
-    height:20px;
     background-color:#2393F7;
-    margin: 20px;
-    margin-bottom: 40px;
-    margin-left: 0px;
-    padding: 20px;
+    margin-top: 20px;
+    /* margin-bottom: 40px; */
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 18px;
     border-radius: 15px;
 }
 
 #transferir {
-    width: 20px;
-    height:20px;
     background-color:#2393F7;
-    margin: 20px;
-    margin-bottom: 40px;
-    margin-left: 0px;
-    padding: 20px;
+    margin-top: 20px;
+    /* margin-bottom: 40px; */
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 18px;
     border-radius: 15px;
 }
 
 #gastos {
-    width: 20px;
-    height:20px;
+    
     background-color:#2393F7;
-    margin: 20px;
-    margin-bottom: 40px;
-    margin-left: 0px;
-    padding: 20px;
+    margin-top: 20px;
+    /* margin-bottom: 40px; */
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 18px;
     border-radius: 15px;
 }
 
 #p_cartao {
+    display: inline-block;
     font-family: 'Roboto', sans-serif;
     margin-top: -40px;
-    margin-left: 24px;
+    margin-left: 25px;
     font-weight: 600;
     opacity: 0.5;
 }
 
 #p_boleto {
+    display: inline-block;
     font-family: 'Roboto', sans-serif;
     margin-top: -35px;
-    margin-left: 111px;
+    margin-left: 36px;
     font-weight: 600;
     opacity: 0.5;
 }
 
 #p_transferir {
+    display: inline-block;
     font-family: 'Roboto', sans-serif;
     margin-top: -35px;
-    margin-left: 183px;
+    margin-left: 27px;
     font-weight: 600;
     opacity: 0.5;
 }
 
 #p_gastos {
+    display: inline-block;
     font-family: 'Roboto', sans-serif;
     margin-top: -35px;
-    margin-left: 277px;
+    margin-left: 23px;
     font-weight: 600;
     opacity: 0.5;
 }
